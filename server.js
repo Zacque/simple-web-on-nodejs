@@ -10,5 +10,8 @@ app.get('/', (req,res) => {
         test: 'OK'
     })
 })
-
+var template = '<p> Please find the template</p>
 app.listen(8080, () => console.log("Server is running"))
+
+
+
